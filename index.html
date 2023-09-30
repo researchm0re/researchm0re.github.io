@@ -1,0 +1,708 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>romainthibault</title>
+  <meta name="author" content=" ROMAIN THIBAULT">
+  <meta name="keywords" content="Digital art, 3d, Graphic, visual art, art, Artist, installation, Creative">
+  <meta name="description" content="Online visual portfolio of Romain Fontaine">
+  <meta name="viewport" content="width=device-width" />
+  <link rel="shortcut icon" type="pict/x-icon" href="pict/ico.png" />
+  <link rel="stylesheet" href="css/style_index.css?v=1.0" type="text/css">
+
+<!--script script script script script script script script script script script script script script script script script script script -->
+<!--[if lt IE 9]-->
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+
+
+<!--[endif]-->
+  <script src="js/jquery-1.12.3.min.js" type="text/javascript" ></script>
+<!-- responsiv block -->
+  <script type="text/javascript" src="js/responsive.js" type="text/javascript" ></script>
+<!-- loader -->
+  <script src="js/modernizr.js" type="text/javascript" ></script>
+<!-- mouse move loader -->
+<script type="text/javascript">
+  	$(window).load(function() {
+  		// Animate loader off screen
+$(".se-pre-con").fadeOut("slow");;
+});
+
+$(document).bind('mousemove', function(e){
+$('.icon').css({
+top: e.pageY - $(".icon").height()/2, // just minus by half the height
+left:  e.pageX - $(".icon").width()/2 // just minus by half the width
+});
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+        $(".click,.descript").click(function(){
+            $(".bg").show();
+        });});
+</script>
+
+<!-- txt script -->
+<script type="text/javascript" src="js/jquery.widowFix.min.js" type="text/javascript" ></script>
+
+<script type="text/javascript">
+if(window.innerWidth > 768){
+$(document).ready(function() {
+    $('.description').widowFix();
+});
+}
+</script>
+
+<!-- horyzontal scroll + OPEN/CLOSE DIV-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" ></script>
+
+
+  <script id="rendered-js" >
+
+
+  $(document).ready(function () {
+
+
+
+    var lastScrollTop = 0;
+    $('.imager').scroll(function(event){
+       var st = $(this).scrollTop();
+       if (st > lastScrollTop){
+         $('.description').fadeOut();
+       } else {
+         $('.description').fadeIn();
+       }
+       lastScrollTop = st;
+    });
+
+
+
+
+
+    $("#one").click(function(){$(".aa,.show").css("display", "block");$(".about,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );
+    $("#one").css("font-family", "f-grotesk-demi").css("color", "black");$("#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten,#eleven,#twelve,#thirteen,#fourteen,#fiveteen,#sixteen").css("font-family", "f-grotesk").css("color", "#4d4d4d");});
+
+    $("#two").click(function(){$(".bb,.show").css("display", "block");$(".about,.aa,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );
+    $("#two").css("font-family", "f-grotesk-demi").css("color", "black");$("#one,#three,#four,#five,#six,#seven,#eight,#nine,#ten,#eleven,#twelve,#thirteen,#fourteen,#fiveteen,#sixteen").css("font-family", "f-grotesk").css("color", "#4d4d4d");});
+
+    $("#three").click(function(){$(".cc,.show").css("display", "block");$(".about,.aa,.bb,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );
+    $("#three").css("font-family", "f-grotesk-demi").css("color", "black");$("#one,#two,#four,#five,#six,#seven,#eight,#nine,#ten,#eleven,#twelve,#thirteen,#fourteen,#fiveteen,#sixteen").css("font-family", "f-grotesk").css("color", "#4d4d4d");});
+
+
+    $("#four").click(function(){$(".dd,.show").css("display", "block");$(".about,.aa,.bb,.cc,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );
+    $("#four").css("font-family", "f-grotesk-demi").css("color", "black");$("#one,#two,#three,#five,#six,#seven,#eight,#nine,#ten,#eleven,#twelve,#thirteen,#fourteen,#fiveteen,#sixteen").css("font-family", "f-grotesk").css("color", "#4d4d4d");});
+
+    $("#five").click(function(){$(".ee,.show").css("display", "block");$(".about,.aa,.bb,.cc,.dd,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );
+    $("#five").css("font-family", "f-grotesk-demi").css("color", "black");$("#one,#two,#three,#four,#six,#seven,#eight,#nine,#ten,#eleven,#twelve,#thirteen,#fourteen,#fiveteen,#sixteen").css("font-family", "f-grotesk").css("color", "#4d4d4d");});
+
+    $("#six").click(function(){$(".ff,.show").css("display", "block");$(".about,.aa,.bb,.cc,.dd,.ee,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );
+    $("#six").css("font-family", "f-grotesk-demi").css("color", "black");$("#one,#two,#three,#four,#five,#seven,#eight,#nine,#ten,#eleven,#twelve,#thirteen,#fourteen,#fiveteen,#sixteen").css("font-family", "f-grotesk").css("color", "#4d4d4d");});
+
+    $("#seven").click(function(){$(".gg,.show").css("display", "block");$(".about,.aa,.bb,.cc,.dd,.ee,.ff,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );
+    $("#seven").css("font-family", "f-grotesk-demi").css("color", "black");$("#one,#two,#three,#four,#five,#six,#eight,#nine,#ten,#eleven,#twelve,#thirteen,#fourteen,#fiveteen,#sixteen").css("font-family", "f-grotesk").css("color", "#4d4d4d");});
+
+    $("#eight").click(function(){$(".hh,.show").css("display", "block");$(".about,.aa,.bb,.cc,.dd,.ee,.ff,.gg,.ii,.jj,.kk,.ll,.mm,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );
+    $("#eight").css("font-family", "f-grotesk-demi").css("color", "black");$("#one,#two,#three,#four,#five,#six,#seven,#nine,#ten,#eleven,#twelve,#thirteen,#fourteen,#fiveteen,#sixteen").css("font-family", "f-grotesk").css("color", "#4d4d4d");});
+
+    $("#nine").click(function(){$(".ii,.show").css("display", "block");$(".about,.aa,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.jj,.kk,.ll,.mm,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );
+    $("#nine").css("font-family", "f-grotesk-demi").css("color", "black");$("#one,#two,#three,#four,#five,#six,#seven,#eight,#ten,#eleven,#twelve,#thirteen,#fourteen,#fiveteen,#sixteen").css("font-family", "f-grotesk").css("color", "#4d4d4d");});
+
+
+    $("#ten").click(function(){$(".jj,.show").css("display", "block");$(".about,.aa,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.kk,.ll,.mm,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );
+    $("#ten").css("font-family", "f-grotesk-demi").css("color", "black");$("#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#eleven,#twelve,#thirteen,#fourteen,#fiveteen,#sixteen").css("font-family", "f-grotesk").css("color", "#4d4d4d");});
+
+    $("#eleven").click(function(){$(".kk,.show").css("display", "block");$(".about,.aa,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.ll,.mm,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );
+    $("#eleven").css("font-family", "f-grotesk-demi").css("color", "black");$("#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten,#twelve,#thirteen,#fourteen,#fiveteen,#sixteen").css("font-family", "f-grotesk").css("color", "#4d4d4d");});
+
+    $("#twelve").click(function(){$(".ll,.show").css("display", "block");$(".about,.aa,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.mm,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );
+    $("#twelve").css("font-family", "f-grotesk-demi").css("color", "black");$("#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten,#eleven,#thirteen,#fourteen,#fiveteen,#sixteen").css("font-family", "f-grotesk").css("color", "#4d4d4d");});
+
+    $("#thirteen").click(function(){$(".mm,.show").css("display", "block");$(".about,.aa,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );
+    $("#thirteen").css("font-family", "f-grotesk-demi").css("color", "black");$("#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten,#eleven,#twelve,#fourteen,#fiveteen,#sixteen").css("font-family", "f-grotesk").css("color", "#4d4d4d");});
+
+    $("#fourteen").click(function(){$(".nn,.show").css("display", "block");$(".about,.aa,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );
+    $("#fourteen").css("font-family", "f-grotesk-demi").css("color", "black");$("#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten,#eleven,#twelve,#thirteen,#fiveteen,#sixteen").css("font-family", "f-grotesk").css("color", "#4d4d4d");});
+
+    $("#fiveteen").click(function(){$(".oo,.show").css("display", "block");$(".about,.aa,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );
+    $("#fiveteen").css("font-family", "f-grotesk-demi").css("color", "black");$("#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten,#eleven,#twelve,#thirteen,#fourteen,#sixteen").css("font-family", "f-grotesk").css("color", "#4d4d4d");});
+
+    $("#sixteen").click(function(){$(".pp,.show").css("display", "block");$(".about,.aa,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.oo").css("display", "none");$( "div.imager" ).scrollTop( 0 );
+    $("#sixteen").css("font-family", "f-grotesk-demi").css("color", "black");$("#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten,#eleven,#twelve,#thirteen,#fourteen,#fiveteen").css("font-family", "f-grotesk").css("color", "#4d4d4d");});
+
+    $("#show").click(function(){$(".about").css("display", "block");$(".aa,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.oo,.pp,.show").css("display", "none");$( "div.imager" ).scrollTop( 0 );
+    $("#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten,#eleven,#twelve,#thirteen,#fourteen,#fiveteen,sixteen").css("font-family", "f-grotesk").css("color", "#4d4d4d");});
+
+
+    $("#onem").click(function(){$(".imager,.aa,.close").css("display", "block");$(".menumobile,.showm,.about,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 ); $("#onem").css("font-family","f-grotesk-bold").css("color","black");});
+    $("#twom").click(function(){$(".imager,.bb,.close").css("display", "block");$(".menumobile,.showm,.about,.aa,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 ); $("#twom").css("font-family","f-grotesk-bold").css("color","black");});
+    $("#threem").click(function(){$(".imager,.cc,.close").css("display", "block");$(".menumobile,.showm,.about,.aa,.bb,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );$("#threem").css("font-family","f-grotesk-bold").css("color","black");});
+    $("#fourm").click(function(){$(".imager,.dd,.close").css("display", "block");$(".menumobile,.showm,.about,.aa,.bb,.cc,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );$("#fourm").css("font-family","f-grotesk-bold").css("color","black");});
+    $("#fivem").click(function(){$(".imager,.ee,.close").css("display", "block");$(".menumobile,.showm,.about,.aa,.bb,.cc,.dd,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );$("#fivem").css("font-family","f-grotesk-bold").css("color","black");});
+    $("#sixm").click(function(){$(".imager,.ff,.close").css("display", "block");$(".menumobile,.showm,.about,.aa,.bb,.cc,.dd,.ee,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );$("#sixm").css("font-family","f-grotesk-bold").css("color","black");});
+    $("#sevenm").click(function(){$(".imager,.gg,.close").css("display", "block");$(".menumobile,.showm,.about,.aa,.bb,.cc,.dd,.ee,.ff,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );$("#sevenm").css("font-family","f-grotesk-bold").css("color","black");});
+    $("#eightm").click(function(){$(".imager,.hh,.close").css("display", "block");$(".menumobile,.showm,.about,.aa,.bb,.cc,.dd,.ee,.ff,.gg,.ii,.jj,.kk,.ll,.mm,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );$("#eightm").css("font-family","f-grotesk-bold").css("color","black");});
+    $("#ninem").click(function(){$(".imager,.ii,.close").css("display", "block");$(".menumobile,.showm,.about,.aa,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.jj,.kk,.ll,.mm,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );$("#ninem").css("font-family","f-grotesk-bold").css("color","black");});
+    $("#tenm").click(function(){$(".imager,.jj,.close").css("display", "block");$(".menumobile,.showm,.about,.aa,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.kk,.ll,.mm,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );$("#tenm").css("font-family","f-grotesk-bold").css("color","black");});
+    $("#elevenm").click(function(){$(".imager,.kk,.close").css("display", "block");$(".menumobile,.showm,.about,.aa,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.ll,.mm,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );$("#elevenm").css("font-family","f-grotesk-bold").css("color","black");});
+    $("#twelvem").click(function(){$(".imager,.ll,.close").css("display", "block");$(".menumobile,.showm,.about,.aa,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.mm,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );$("#twelvem").css("font-family","f-grotesk-bold").css("color","black");});
+    $("#thirteenm").click(function(){$(".imager,.mm,.close").css("display", "block");$(".menumobile,.showm,.about,.aa,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );$("#thirteenm").css("font-family","f-grotesk-bold").css("color","black");});
+    $("#fourteenm").click(function(){$(".imager,.nn,.close").css("display", "block");$(".menumobile,.showm,.about,.aa,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );$("#fourteenm").css("font-family","f-grotesk-bold").css("color","black");});
+    $("#fiveteenm").click(function(){$(".imager,.oo,.close").css("display", "block");$(".menumobile,.showm,.about,.aa,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );$("#fiveteenm").css("font-family","f-grotesk-bold").css("color","black");});
+    $("#sixteenm").click(function(){$(".imager,.pp,.close").css("display", "block");$(".menumobile,.showm,.about,.aa,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.oo").css("display", "none");$( "div.imager" ).scrollTop( 0 );$("#sixteenm").css("font-family","f-grotesk-bold").css("color","black");});
+    $("#showm").click(function(){$(".imager,.close,.about").css("display", "block");$(".menumobile,.showm,.aa,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );});
+    $("#close").click(function(){$(".menumobile,.showm,.about").css("display", "block");$(".imager,.close,.aa,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.oo,.pp").css("display", "none");$( "div.imager" ).scrollTop( 0 );});
+
+
+
+  });
+  //# sourceURL=pen.js
+</script>
+
+<!-- autoplay -->
+<script>
+function fctAutoplay(sIdVideo){
+  var oVideo = document.getElementById(video);
+  oVideo.autoplay = true;
+}//fct
+
+function fctPlay(sIdVideo){
+  var oVideo = document.getElementById(video);
+  var playPromise = oVideo.play();
+
+  if (playPromise !== undefined) {
+    playPromise.then(function() {
+      //
+    }).catch(function(error) {
+      var oDetect = document.getElementById("detect"+video);
+      if(oDetect){
+        oDetect.innerHTML = "(on la détecté en javascript que la vidéo ne c'est pas lancée)";
+      }
+    });
+  }
+}//fct
+
+document.addEventListener('DOMContentLoaded',function(){
+  //fctAutoplay('idvideo');
+  fctAutoplay('idvideoA');
+  fctAutoplay('idvideoA2');
+  fctPlay('idvideoB')
+  fctPlay('idvideoB2')
+});
+</script>
+
+
+<!-- script script script script script script script script script script script script script script script script script script script -->
+</head>
+
+<body>
+
+
+  <!-- load gif --> <!-- load gif --> <!-- load gif --> <!-- load gif --> <!-- load gif --> <!-- load gif -->
+  <div  class="se-pre-con"><img class="icon" src="pict/oily_2x.gif"  /></div>
+
+
+  <div class="wrapper">
+
+    <div class="headmenu" >
+   <a href="http://www.romain-thibault.com"> Romain Thibault</a> <img class="show" id="show" src="pict/oily_2x.gif"><img class="showm"  id="showm"  src="pict/oily_2x.gif"><p class="close" id="close">☻&ensp;Close</p>
+</div>
+
+  <!-- menue -->  <!-- menue -->  <!-- menue -->  <!-- menue -->  <!-- menue -->  <!-- menue -->
+
+  <div class="nav" >
+  <!-- menue mobile-->
+  <ul class="menumobile"style="list-style-type:none">
+  <li id="onem" class="list2">→&ensp;Fucking Young!</li>
+  <li id="twom" class="list2">→&ensp;Traust</li>
+  <li id="threem" class="list2">→&ensp;Ten Studio</li>
+  <li id="fourm" class="list2">→&ensp;Akademie Konzerte</li>
+  <li id="fivem" class="list2">→&ensp;Manteleria</li>
+  <li id="sixm" class="list2">→&ensp;Club Visage</li>
+  <li id="sevenm" class="list2">→&ensp;FUKT art magazine</li>
+  <li id="eightm" class="list2">→&ensp;Desigual</li>
+  <li id="ninem" class="list2">→&ensp;Electronic scavenger</li>
+  <li id="tenm" class="list2">→&ensp;Romainthibault.xyz</li>
+  <li id="elevenm" class="list2">→&ensp;The Adventures Of</li>
+  <li id="twelvem" class="list2">→&ensp;Harper’s BAZAAR</li>
+  <li id="thirteenm" class="list2">→&ensp;Studio Last</li>
+  <li id="fourteenm" class="list2">→&ensp;Beijing Environment Week</li>
+  <li id="fiveteenm" class="list2">→&ensp;Cosmic Garden</li>
+  <li id="sixteenm" class="list2">→&ensp;Experimental Poster</li>
+  </ul>
+  <ul class="menutop"style="list-style-type:none">
+  <li class="list"><a id="three" href="#">Ten Studio&ensp;→&ensp;POSTER</a></li>
+  <li class="list"><a id="two" href="#"> Traust&ensp;→&ensp;EDITORIAL</a></li>
+  <li class="list"><a id="six" href="#">Club Visage&ensp;→&ensp;POSTER</a></li>
+  <li class="list"><a id="one" href="#">Fucking Young!&ensp;→&ensp;EDITORIAL</a></li>
+  <li class="list"><a id="seven" href="#">FUKT Magazine&ensp;→&ensp;AUGMENTED REALITY</a></li>
+  <li class="list"><a id="five" href="#">Manteleria&ensp;→&ensp;WEB SHOP</a></li>
+  <li class="list"><a id="four" href="#">Akademie Konzerte&ensp;→&ensp;CAMPAIGN</a></li>
+  <li class="list"><a id="eight" href="#">Desigual&ensp;→&ensp;CAMPAIGN</a></li>
+  <li class="list"><a id="nine" href="#">Electronic Scavenger&ensp;→&ensp;INSTALLATION</a></li>
+  <li class="list"><a id="ten" href="#">Romainthibault.xyz&ensp;→&ensp;WEB</a></li>
+  <li class="list"><a id="eleven" href="#">The Adventures Of&ensp;→&ensp;EDITORIAL</a></li>
+  <li class="list"><a id="twelve" href="#">Harper’s BAZAAR&ensp;→&ensp;CAMPAIGN</a></li>
+  <li class="list"><a id="thirteen" href="#">Studio Last&ensp;→&ensp;APPAREL</a></li>
+  <li class="list"><a id="fourteen" href="#">Environment Week in Beijing&ensp;→&ensp;POSTER</a></li>
+  <li class="list"><a id="fiveteen" href="#">Cosmic Garden&ensp;→&ensp;EDITO 3D</a></li>
+  <li class="list"><a id="sixteen" href="#">Experimental Poster&ensp;→&ensp;RESEARCH</a></li>
+  </ul>
+  </div>
+
+
+<!-- project system --><!-- project system --><!-- project system --><!-- project system --><!-- project system --><!-- project system -->
+
+
+
+
+<div id="content"  class="imager">
+<!-- Young -->
+<div class="aa" >
+<p  class="description" id="descript">
+ <a href="https://fuckingyoung.es/" target="_blank">→&ensp;FuckingYoung!</a>
+  <br><br>3d objects and layout support for the Alien issue of FuckingYoung! A futuristic, alien like touch was added by creating 3d headlines.<br><br> Built with and for Studio Cordova Canillas in Spain, Barcelona.<br><br></p>
+<div class="grid">
+  <img class="thumbfull"   src="Young/0.jpg">
+  <img class="thumbfull"   data-original="Young/1.jpg">
+  <img class="thumbfull"   data-original="Young/11.jpg">
+  <img class="thumbfull"   data-original="Young/4.jpg">
+  <img class="thumbfull"   data-original="Young/2.jpg">
+  <img class="thumbfull"   data-original="Young/6.jpg">
+  <img class="thumbfull"   data-original="Young/8.jpg">
+  <img class="thumbfull"   data-original="Young/33.jpg">
+  <img class="thumbfull"   data-original="Young/18.jpg">
+  <img class="thumbfull"   data-original="Young/19.jpg">
+  <img class="thumbfull"   data-original="Young/13.jpg">
+  <img class="thumbfull"   data-original="Young/30.jpg">
+  <img class="thumbfull"   data-original="Young/7.jpg">
+  <img class="thumbfull"   data-original="Young/5.jpg">
+  <img class="thumbfull"   data-original="Young/9.jpg">
+  <img class="thumbfull"   data-original="Young/12.jpg">
+  <img class="thumbfull"   data-original="Young/22.jpg">
+  <img class="thumbfull"   data-original="Young/35.jpg">
+  <img class="thumbfull"   data-original="Young/23.jpg">
+  <img class="thumbfull"   data-original="Young/40.jpg">
+
+
+  <img class="thumb"  style="width:20vw;" src="Young/0.jpg"><br class="thumb">
+  <img class="thumb"  style="width:40vw;" src="Young/1.jpg"><br class="thumb">
+  <img class="thumb"  style="width:40vw;" data-original="Young/11.jpg"><br class="thumb">
+  <img class="thumb"  style="width:40vw;" data-original="Young/4.jpg"><br class="thumb">
+  <img class="thumb"  style="width:40vw;" data-original="Young/2.jpg"><br class="thumb">
+  <img class="thumb"  style="width:40vw;" data-original="Young/6.jpg"><br class="thumb">
+  <img class="thumb"  style="width:50vw;" data-original="Young/50.jpg"><br class="thumb">
+  <img class="thumb"  style="width:40vw;" data-original="Young/18.jpg"><br class="thumb">
+  <img class="thumb"  style="width:40vw;" data-original="Young/19.jpg"><br class="thumb">
+  <img class="thumb"  style="width:50vw;" data-original="Young/53.jpg"><br class="thumb">
+  <img class="thumb"  style="width:40vw;" data-original="Young/7.jpg"><br class="thumb">
+  <img class="thumb"  style="width:40vw;" data-original="Young/5.jpg"><br class="thumb">
+  <img class="thumb"  style="width:40vw;" data-original="Young/9.jpg"><br class="thumb">
+  <img class="thumb"  style="width:40vw;" data-original="Young/12.jpg"><br class="thumb">
+  <img class="thumb"  style="width:50vw;" data-original="Young/51.jpg"><br class="thumb">
+  <img class="thumb"  style="width:40vw;" data-original="Young/23.jpg"><br class="thumb">
+  <img class="thumb"  style="width:30vw;" data-original="Young/40.jpg">
+
+
+</div></div>
+
+<!-- Traust -->
+<div  class="bb" ><p class="description"><a href="https://khio.no/" target="_blank">→&ensp;Traust</a><br><br>Traust is an ambivalent word in old Norse, translated by "steady" or "to be trusted". <br><br>The title echoes with the struggle each graduated art student deal with, either over confident or unsecure.<br><br>Catalogue for the final degree show for Kunsthøgskolen i Oslo (KHiO). The cover comes with a sanding paper feel.<br><br> Designed with and for studio Ariane Spanier in Germany, Berlin.<br><br></p>
+  <div class="grid">
+      <img class="thumbfull"  src="Traust/1.jpg">
+      <img class="thumbfull"  data-original="Traust/2.jpg">
+      <img class="thumbfull"  data-original="Traust/7.jpg">
+      <img class="thumbfull"  data-original="Traust/8.jpg">
+      <img class="thumbfull"  data-original="Traust/11.jpg">
+      <img class="thumbfull"  data-original="Traust/10.jpg">
+      <img class="thumbfull"  data-original="Traust/9.jpg">
+      <img class="thumbfull"  data-original="Traust/13.jpg">
+      <img class="thumbfull"  data-original="Traust/14.jpg">
+      <img class="thumbfull"  data-original="Traust/16.jpg">
+      <img class="thumbfull"  data-original="Traust/17.jpg">
+      <img class="thumbfull"  data-original="Traust/13.jpg">
+      <img class="thumbfull"  data-original="Traust/19.jpg">
+      <img class="thumbfull"  data-original="Traust/20.jpg">
+      <img class="thumbfull"  data-original="Traust/21.jpg">
+      <img class="thumbfull"  data-original="Traust/16.jpg">
+      <img class="thumbfull"  data-original="Traust/23.jpg">
+      <img class="thumbfull"  data-original="Traust/27.jpg">
+      <img class="thumbfull"  data-original="Traust/25.jpg">
+      <img class="thumbfull"  data-original="Traust/26.jpg">
+      <img class="thumbfull"  data-original="Traust/24.jpg">
+      <img class="thumbfull"  data-original="Traust/28.jpg">
+      <img class="thumbfull"  data-original="Traust/29.jpg">
+      <img class="thumbfull"  data-original="Traust/5.jpg">
+
+  <img class="thumb" style="height:20vw;" src="Traust/1.jpg"><br class="thumb">
+  <img class="thumb"  src="Traust/2.jpg" style="height:20vw;"><br class="thumb">
+  <img class="thumb"  data-original="Traust/7.jpg" style="height:19vw;"><img class="thumb2"  data-original="Traust/8.jpg" style="height:19vw;"><br class="thumb">
+  <img class="thumb"  data-original="Traust/11.jpg" style="height:19vw;"><img class="thumb2"  data-original="Traust/10.jpg" style="height:19vw;"><br class="thumb">
+  <img class="thumb"  data-original="Traust/9.jpg" style="height:30vw;"><br class="thumb">
+  <img class="thumb"  data-original="Traust/13.jpg" style="height:19vw;"><img class="thumb2"  data-original="Traust/14.jpg" style="height:19vw;"><br class="thumb">
+  <img class="thumb"  data-original="Traust/16.jpg" style="height:19vw;"><img class="thumb2"  data-original="Traust/17.jpg" style="height:19vw;"><br class="thumb">
+  <img class="thumb"  data-original="Traust/13.jpg" style="height:30vw;"><br class="thumb">
+  <img class="thumb"  data-original="Traust/19.jpg" style="height:19vw;"><img class="thumb2"  data-original="Traust/20.jpg" style="height:19vw;"><br class="thumb">
+  <img class="thumb"  data-original="Traust/21.jpg" style="height:19vw;"><img class="thumb2"  data-original="Traust/16.jpg" style="height:19vw;"><br class="thumb">
+  <img class="thumb"  data-original="Traust/23.jpg" style="height:19vw;"><img class="thumb2"  data-original="Traust/27.jpg" style="height:19vw;"><br class="thumb">
+  <img class="thumb"  data-original="Traust/25.jpg" style="height:30vw;"><br class="thumb">
+  <img class="thumb"  data-original="Traust/26.jpg" style="height:19vw;"><img class="thumb2"  data-original="Traust/24.jpg" style="height:19vw;"><br class="thumb">
+  <img class="thumb"  data-original="Traust/28.jpg" style="height:19vw;"><img class="thumb2"  data-original="Traust/29.jpg" style="height:19vw;"><br class="thumb">
+  <img class="thumb"  data-original="Traust/5.jpg" style="height:20vw;">
+
+</div></div>
+
+<!-- Ten Studio -->
+<div  class="cc" ><p  class="description"><a href="https://www.ten.studio/" target="_blank">→&ensp;Ten studio</a><br><br>Poster created for the participation of Ten Studio at the Seoul Biennale of Architecture and Urbanism.<br><br> Built with and for Studio Cordova Canillas in Spain, Barcelona.<br></p>
+<div class="grid">
+  <img class="thumbfull"  src="Tenstudio/01.jpg"/>
+  <img class="thumbfull"  data-original="Tenstudio/02.jpg">
+
+  <img class="thumb"  style="width:20vw;" src="Tenstudio/01.jpg"/><br>
+  <img class="thumb"  style="width:20vw;" src="Tenstudio/02.jpg"><br>
+</div></div>
+
+<!-- Konzerte -->
+<div  class="dd" ><p  class="description">→&ensp;Akademie Konzerte<br><br>Key visuals, posters and booklets in print and digital for the National Theater Orchester in Mannheim, Germany. <br><br>Designed with and for studio Ariane Spanier in Germany, Berlin.<br><br></p>
+<div class="grid">
+  <img class="thumbfull"  src="Akademie/01.jpg">
+  <img class="thumbfull"  data-original="Akademie/02.jpg">
+  <img class="thumbfull"  data-original="Akademie/03.jpg">
+  <img class="thumbfull"  Data-original="Akademie/7.jpg"><img class="thumbfull"  Data-original="Akademie/4.jpg">
+  <img class="thumbfull"  Data-original="Akademie/8.jpg" ><img class="thumbfull"  Data-original="Akademie/9.jpg">
+  <img class="thumbfull"  Data-original="Akademie/10.jpg"><img class="thumbfull"  Data-original="Akademie/11.jpg">
+  <img class="thumbfull"  data-original="Akademie/04.jpg">
+  <img class="thumbfull"  data-original="Akademie/05.jpg">
+  <img class="thumbfull"  data-original="Akademie/06.jpg">
+
+  <img class="thumb"  src="Akademie/01.jpg" style="height:25vw;"><br class="thumb">
+  <img class="thumb"  src="Akademie/02.jpg" style="height:25vw;"><br class="thumb">
+  <img class="thumb"  data-original="Akademie/03.jpg" style="height:25vw;"><br class="thumb">
+  <img class="thumb"  Data-original="Akademie/7.jpg" style="height:30vw;"><img class="thumb"  Data-original="Akademie/4.jpg" style="height:30vw;"><br class="thumb">
+  <img class="thumb"  Data-original="Akademie/8.jpg" style="height:15vw;"><img class="thumb2"  Data-original="Akademie/9.jpg" style="height:15vw;"><br class="thumb">
+  <img class="thumb"  Data-original="Akademie/10.jpg" style="height:15vw;"><img class="thumb2"  Data-original="Akademie/11.jpg" style="height:15vw;"><br class="thumb">
+  <img class="thumb"  data-original="Akademie/04.jpg" style="height:25vw;"><br class="thumb">
+  <img class="thumb"  data-original="Akademie/05.jpg" style="height:25vw;"><br class="thumb">
+  <img class="thumb"  data-original="Akademie/06.jpg" style="height:25vw;"><br class="thumb">
+</div></div>
+
+<!-- Manteleria -->
+<div  class="ee" ><p  class="description"><a href="https://manteleria.org/" target="_blank">→&ensp;Manteleria</a><br><br> Online Shoping experience for the Barcelona based fashion and tableware creators, Manteleria.<br><br> Built with and for Studio Cordova Canillas in
+ Spain, Barcelona.<br><br></p>
+<div class="grid">
+  <img class="thumbfull"   src="Manteleria/01.jpg"/>
+  <img class="thumbfull"   data-original="Manteleria/02.jpg">
+  <img class="thumbfull"   data-original="Manteleria/05.jpg">
+  <img class="thumbfull"   data-original="Manteleria/04.jpg">
+  <img class="thumbfull"   data-original="Manteleria/06.jpg">
+
+  <img class="thumb"  style="width:20vw;" src="Manteleria/01.jpg"/><br class="thumb">
+  <img class="thumb"  style="width:20vw;" src="Manteleria/02.jpg"><br class="thumb">
+  <img class="thumb"  style="width:20vw;" data-original="Manteleria/05.jpg"><br class="thumb">
+  <img class="thumb"  style="width:20vw;" data-original="Manteleria/04.jpg"><br class="thumb">
+  <img class="thumb"  style="width:20vw;" data-original="Manteleria/06.jpg"><br class="thumb">
+</div></div>
+
+<!-- Clubvisage -->
+<div  class="ff" ><p  class="description"><a href="https://www.instagram.com/club_visage/" target="_blank">→&ensp;Club Visage</a><br><br>Poster and 3D illustration for a cultural event in Paris, France. <br><br> "Sponsored by<a href="https://www.instagram.com/parkingstone/" target="_blank">&ensp;→&ensp;Parkingstone</a>, Club Visage is a fundraising event dedicated to support our trans community".<br><br></p>
+<div class="grid">
+  <img class="thumbfull"   src="Clubvisage/00.jpg">
+  <img class="thumbfull"   data-original="Clubvisage/01.jpg">
+  <img class="thumbfull"   data-original="Clubvisage/03.jpg">
+
+  <img class="thumb"  style="width:25vw;" src="Clubvisage/00.jpg"><br class="thumb">
+  <img class="thumb"  style="width:25vw;" src="Clubvisage/01.jpg"><br class="thumb">
+  <img class="thumb"  style="width:25vw;" data-original="Clubvisage/03.jpg"><br class="thumb">
+</div></div>
+
+
+<!-- Fukt -->
+<div class="gg" ><p  class="description"><a href="https://www.fuktmagazine.com/" target="_blank">→&ensp;FUKT Magazine</a><br><br> Using augmented reality technology, an application was developed for the 17th edition of FUKT, magazine for contemporary drawing.<br>Aided by a game engine and 3D softwares, the cover of the contemporary art magazine comes alive!<br><br>Designed with and for studio Ariane Spanier in Germany, Berlin.</p>
+<div class="grid">
+
+<img class="thumbfull" src="Ar/1.jpg"/>
+<iframe class="thumbfull" src="https://player.vimeo.com/video/305557154?portrait=0&byline=0&title=false" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<img class="thumb" style="width:25vw" src="Ar/1.jpg"/><br>
+<iframe class="thumb" src="https://player.vimeo.com/video/305557154?portrait=0&byline=0&title=false" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div></div>
+
+<!-- Desigual -->
+<div class="hh" ><p  class="description"><a href="https://www.desigual.com/" target="_blank">→&ensp;Desigual</a><br><br>The instagram feed of the fashion brand Desigual was taken over for several months.<br><br>Filled with collage art and other mesmerizing motion designs, the feed showed off and played with the rich variety of patterns and fabrics.<br><br> Built with and for Studio Cordova Canillas in Spain, Barcelona.<br><br></p>
+<div class="grid">
+
+  <img class="thumbfull" src="Desigual/1.jpg"/>
+  <video class="thumbfull"   loop  muted autoplay preload="auto" id="video" ><source type="video/mp4" src="Desigual/5.mp4"></source> Votre navigateur ne supporte pas la balise HTML5 video.</video>
+  <video class="thumbfull"   loop  muted autoplay preload="auto" id="video" ><source type="video/mp4" src="Desigual/6.mp4"></source> Votre navigateur ne supporte pas la balise HTML5 video.</video>
+  <img class="thumbfull" data-original="Desigual/2.jpg"/>
+  <video class="thumbfull"   loop  muted autoplay preload="auto" id="video" ><source type="video/mp4" src="Desigual/7.mp4"></source> Votre navigateur ne supporte pas la balise HTML5 video.</video>
+  <video class="thumbfull"   loop  muted autoplay preload="auto" id="video" ><source type="video/mp4" src="Desigual/8.mp4"></source> Votre navigateur ne supporte pas la balise HTML5 video.</video>
+  <img class="thumbfull" data-original="Desigual/3.jpg"/>
+  <video class="thumbfull"   loop  muted autoplay preload="auto" id="video" ><source type="video/mp4" src="Desigual/11.mp4"></source> Votre navigateur ne supporte pas la balise HTML5 video.</video>
+  <video class="thumbfull"   loop  muted autoplay preload="auto" id="video" ><source type="video/mp4" src="Desigual/12.mp4"></source> Votre navigateur ne supporte pas la balise HTML5 video.</video>
+  <img class="thumbfull" data-original="Desigual/4.jpg"/>
+  <video class="thumbfull"   loop  muted autoplay preload="auto" id="video" ><source type="video/mp4" src="Desigual/9.mp4"></source> Votre navigateur ne supporte pas la balise HTML5 video.</video>
+  <video class="thumbfull"   loop  muted autoplay preload="auto" id="video" ><source type="video/mp4" src="Desigual/10.mp4"></source> Votre navigateur ne supporte pas la balise HTML5 video.</video>
+
+  <img class="thumb" style="width:25vw" src="Desigual/1.jpg"/><br class="thumb">
+  <video class="thumb" style="width:17vw"  loop  muted autoplay preload="auto" id="video" ><source type="video/mp4" src="Desigual/5.mp4"></source> Votre navigateur ne supporte pas la balise HTML5 video.</video>
+  <video class="thumb2" style="width:17vw"  loop  muted autoplay preload="auto" id="video" ><source type="video/mp4" src="Desigual/6.mp4"></source> Votre navigateur ne supporte pas la balise HTML5 video.</video><br class="thumb">
+  <img class="thumb" style="width:25vw" data-original="Desigual/2.jpg"/><br class="thumb">
+  <video class="thumb" style="width:17vw"  loop  muted autoplay preload="auto" id="video" ><source type="video/mp4" src="Desigual/7.mp4"></source> Votre navigateur ne supporte pas la balise HTML5 video.</video>
+  <video class="thumb2" style="width:17vw"  loop  muted autoplay preload="auto" id="video" ><source type="video/mp4" src="Desigual/8.mp4"></source> Votre navigateur ne supporte pas la balise HTML5 video.</video><br class="thumb">
+  <img class="thumb" style="width:25vw" data-original="Desigual/3.jpg"/><br class="thumb">
+  <video class="thumb" style="width:17vw"  loop  muted autoplay preload="auto" id="video" ><source type="video/mp4" src="Desigual/11.mp4"></source> Votre navigateur ne supporte pas la balise HTML5 video.</video>
+  <video class="thumb2" style="width:17vw"  loop  muted autoplay preload="auto" id="video" ><source type="video/mp4" src="Desigual/12.mp4"></source> Votre navigateur ne supporte pas la balise HTML5 video.</video><br class="thumb">
+  <img class="thumb" style="width:25vw" data-original="Desigual/4.jpg"/><br class="thumb">
+  <video class="thumb" style="width:17vw"  loop  muted autoplay preload="auto" id="video" ><source type="video/mp4" src="Desigual/9.mp4"></source> Votre navigateur ne supporte pas la balise HTML5 video.</video>
+  <video class="thumb2" style="width:17vw"  loop  muted autoplay preload="auto" id="video" ><source type="video/mp4" src="Desigual/10.mp4"></source> Votre navigateur ne supporte pas la balise HTML5 video.</video><br class="thumb">
+</div></div>
+
+
+<!-- scavenger -->
+<div  class="ii" ><p  class="description"><a href="https://romain-thibault.com/research.github.io/" target="_blank">→&ensp;Electronic Scavenger</a><br><br> This internet based installation is born after monitoring the online activities of strange hibrid computer builders and collapsologist developers.<br><br>At the center of the room, a frail structure hangs from the ceiling. Inside lies a custom computer system submerged in vegetal oil running an original video game. The installation was shown in a solo exposition, culminating a three months long residency in Leipzig, Germany.<br><br></p>
+<div class="grid">
+  <img class="thumb" style="width:30vw" src="scavenger/01.jpg"/><br class="thumb">
+  <img class="thumb" style="width:30vw" src="scavenger/00.jpg"/><br class="thumb">
+  <img class="thumb" style="width:30vw" data-original="scavenger/02.jpg"/><br class="thumb">
+  <img class="thumb" style="width:30vw" data-original="scavenger/03.jpg"/><br class="thumb">
+  <img class="thumb" style="width:30vw" data-original="scavenger/13.jpg"/><br class="thumb">
+  <img class="thumb" style="width:30vw" data-original="scavenger/04.jpg"/><br class="thumb">
+  <img class="thumb" style="width:30vw" data-original="scavenger/06.jpg"/><br class="thumb">
+  <img class="thumb" style="width:30vw" data-original="scavenger/07.jpg"/><br class="thumb">
+  <img class="thumb" style="width:30vw" data-original="scavenger/10.jpg"/><br class="thumb">
+  <img class="thumb" style="width:30vw" data-original="scavenger/12.jpg"/><br class="thumb">
+
+  <img class="thumbfull"   src="scavenger/01.jpg"/>
+  <img class="thumbfull"   src="scavenger/00.jpg"/>
+  <img class="thumbfull"   data-original="scavenger/02.jpg"/>
+  <img class="thumbfull"   data-original="scavenger/03.jpg"/>
+  <img class="thumbfull"   data-original="scavenger/13.jpg"/>
+  <img class="thumbfull"  data-original="scavenger/04.jpg"/>
+  <img class="thumbfull"   data-original="scavenger/06.jpg"/>
+  <img class="thumbfull"  data-original="scavenger/07.jpg"/>
+  <img class="thumbfull"   data-original="scavenger/10.jpg"/>
+  <img class="thumbfull"   data-original="scavenger/12.jpg"/>
+</div></div>
+
+<!-- Art Web -->
+<div class="jj" ><p  class="description"><a href="https://romain-thibault.com/research.github.io/ target="_blank"">→&ensp;romainthibault.xyz</a><br><br>Online presence and portfolio for the visual art side of my practice.<br><br> The responsive portfolio was self designed and coded to underlign images and showcast a series of installations, digital paintings, video games and experimental films.<br><br></p>
+<div class="grid">
+  <img class="thumb" style="width:30vw" src="web/01.jpg"/><br class="thumb">
+  <img class="thumb" style="width:30vw" src="web/02.jpg"/><br class="thumb">
+  <img class="thumb" style="width:30vw" data-original="web/04.jpg"/><br class="thumb">
+
+  <img class="thumbfull" src="web/01.jpg"/>
+  <img class="thumbfull" src="web/02.jpg"/>
+  <img class="thumbfull" src="web/04.jpg"/>
+
+
+
+
+</div></div>
+
+<!-- TWISTER -->
+<div class="kk" ><p  class="description"><a href="https://www.facebook.com/theadventuresofagency" target="_blank">→&ensp;The Adventures Of</a><br><br> Cover, spreads and 3D design for the first edition of Mr Twister.<br><br>
+The Agency "The Adventures Of" is annually throwing a zine to showcase their creative and mischievous mood: "Mister Twister explores the unseen, the chaos and the everyday absurdity of the creative process."<br><br></p>
+<div class="grid">
+  <img class="thumb" style="width:30vw" src="twister/11.jpg"/><br class="thumb">
+  <img class="thumb" style="width:30vw" src="twister/2.jpg"/><br class="thumb">
+  <img class="thumb" style="width:30vw" data-original="twister/19.jpg"/><br class="thumb">
+  <img class="thumb" style="width:30vw"  data-original="twister/20.jpg"/><br class="thumb">
+  <img class="thumb" style="width:30vw" data-original="twister/3.jpg"/><br class="thumb">
+  <img class="thumb" style="width:30vw"  data-original="twister/21.jpg"/><br class="thumb">
+  <img class="thumb" style="width:30vw" data-original="twister/5.jpg"/><br class="thumb">
+  <img class="thumb" style="width:30vw" data-original="twister/6.jpg"/><br class="thumb">
+  <img class="thumb"style="width:30vw"  data-original="twister/22.jpg"/><br class="thumb">
+  <img class="thumb" style="width:30vw" data-original="twister/7.jpg"/><br class="thumb">
+  <img class="thumb" style="width:30vw" data-original="twister/9.jpg"/><br class="thumb">
+
+  <img class="thumbfull" src="twister/11.jpg"/>
+  <img class="thumbfull" data-original="twister/2.jpg"/>
+  <img class="thumbfull" data-original="twister/19.jpg"/>
+  <img class="thumbfull"  data-original="twister/20.jpg"/>
+  <img class="thumbfull" data-original="twister/3.jpg"/>
+  <img class="thumbfull"  data-original="twister/21.jpg"/>
+  <img class="thumbfull" data-original="twister/5.jpg"/>
+  <img class="thumbfull" data-original="twister/6.jpg"/>
+  <img class="thumbfull"style="width:30vw"  data-original="twister/22.jpg"/>
+  <img class="thumbfull" data-original="twister/7.jpg"/>
+  <img class="thumbfull" data-original="twister/9.jpg"/>
+
+
+</div></div>
+
+<!-- bazaar -->
+<div class="ll" ><p  class="description">→&ensp;Harper's BAZAAR<br><br>To celebrate their 150th birthday, the great fashion magazine Harper’s BAZAAR decided to gather people around art and fashion in three contemporary art museums across China.<br><br>These key visuals where produced in collabaration with the design studio Lava Beijing, the proposal was considered but not used.</p>
+<div class="grid">
+  <img class="thumb" style="width:23vw" src="bazaar/01.jpg"/><br class="thumb">
+  <img class="thumb" style="width:23vw" src="bazaar/02.jpg"/><br class="thumb">
+  <img class="thumb" style="width:23vw" data-original="bazaar/03.jpg"/><br class="thumb">
+  <img class="thumb" style="width:23vw" data-original="bazaar/04.jpg"/><br class="thumb">
+  <img class="thumb" style="width:23vw" data-original="bazaar/05.jpg"/><br class="thumb">
+  <img class="thumb" style="width:23vw" data-original="bazaar/06.jpg"/><br class="thumb">
+  <img class="thumb" style="width:23vw" data-original="bazaar/07.jpg"/><br class="thumb">
+  <img class="thumb" style="width:23vw" data-original="bazaar/08.jpg"/><br class="thumb">
+
+  <img class="thumbfull" src="bazaar/01.jpg"/>
+  <img class="thumbfull" data-original="bazaar/02.jpg"/>
+  <img class="thumbfull" data-original="bazaar/03.jpg"/>
+  <img class="thumbfull" data-original="bazaar/04.jpg"/>
+  <img class="thumbfull" data-original="bazaar/05.jpg"/>
+  <img class="thumbfull" data-original="bazaar/06.jpg"/>
+  <img class="thumbfull" data-original="bazaar/07.jpg"/>
+  <img class="thumbfull" data-original="bazaar/08.jpg"/>
+
+</div></div>
+
+<!-- apparel -->
+<div  class="mm" ><p  class="description">→&ensp;Studio Last<br><br> Apparel design research for Studio Last in Berlin.<br>Each design is inspired from a poetry piece written by Sarah Bernauer with Studio Last Berlin. They revolve around inner feelings and time perception. <br><br></p>
+<div class="grid">
+  <img class="thumb" style="height:25em;" src="apparel/15.jpg"><br class="thumb">
+  <img class="thumb" style="height:20em;" src="apparel/7.jpg"><br class="thumb">
+  <img class="thumb" style="height:20em;" data-original="apparel/24.jpg"><br class="thumb">
+  <img class="thumb" style="height:25em;" data-original="apparel/5.jpg"><br class="thumb">
+  <img class="thumb" style="height:20em;" data-original="apparel/2.jpg"><img class="thumb2" style="height:20em;" data-original="apparel/27.jpg"><br class="thumb">
+  <img class="thumb" style="height:20em;" data-original="apparel/6.jpg"><br class="thumb">
+  <img class="thumb" style="height:20em;" data-original="apparel/3.jpg"><br class="thumb">
+  <img class="thumb" style="height:25em;" data-original="apparel/4.jpg"><br class="thumb">
+  <img class="thumb" style="height:20em;" data-original="apparel/11.jpg"><br class="thumb">
+  <img class="thumb" style="height:20em;" data-original="apparel/13.jpg"><img class="thumb2" style="height:20em;" data-original="apparel/14.jpg"><br class="thumb">
+  <img class="thumb" style="height:20em;" data-original="apparel/12.jpg"><br class="thumb">
+  <img class="thumb" style="height:20em;" data-original="apparel/28.jpg"><br class="thumb">
+  <img class="thumb" style="height:25em;" data-original="apparel/10.jpg"><br class="thumb">
+  <img class="thumb" style="height:20em;" data-original="apparel/22.jpg"><br class="thumb">
+  <img class="thumb" style="height:20em;" data-original="apparel/8.jpg"><br class="thumb">
+
+
+
+  <img class="thumbfull" src="apparel/15.jpg">
+  <img class="thumbfull" data-original="apparel/7.jpg">
+  <img class="thumbfull" data-original="apparel/24.jpg">
+  <img class="thumbfull" data-original="apparel/5.jpg">
+  <img class="thumbfull" data-original="apparel/2.jpg">
+  <img class="thumbfull"  data-original="apparel/27.jpg">
+
+  <img class="thumbfull" data-original="apparel/6.jpg">
+  <img class="thumbfull" data-original="apparel/3.jpg">
+  <img class="thumbfull" data-original="apparel/4.jpg">
+  <img class="thumbfull" data-original="apparel/11.jpg">
+  <img class="thumbfull" data-original="apparel/13.jpg">
+  <img class="thumbfull" data-original="apparel/14.jpg">
+
+  <img class="thumbfull" data-original="apparel/12.jpg">
+  <img class="thumbfull" data-original="apparel/28.jpg">
+  <img class="thumbfull" data-original="apparel/10.jpg">
+  <img class="thumbfull" data-original="apparel/22.jpg">
+  <img class="thumbfull" data-original="apparel/8.jpg">
+
+
+
+</div></div>
+
+<!-- Environment -->
+<div class="nn" ><p  class="description">→&ensp;Environment Week<br><br> Animated poster created in collaboration with studio Lava Beijing. It aimed to raise awareness around environmental protection and new technology development among the Chinese population.<br><br>The poster illustrates the idea that our environment is alive and has its own dynamics and biorhythms. 环 境 means environment (from simplified Chinese).<br> <br></p>
+<div class="grid">
+  <img class="thumb" style="height:30em;" src="environment/12.jpg"><br class="thumb">
+  <img class="thumb" style="height:20em;" src="environment/0.jpg"> <br class="thumb">
+  <img class="thumb" style="height:20em;" data-original="environment/1.jpg"><br class="thumb">
+  <img class="thumb" style="height:30em;" data-original="environment/13.jpg"><br class="thumb">
+  <img class="thumb" style="height:30em;" data-original="environment/11.gif"><br class="thumb">
+
+  <img class="thumbfull" src="environment/12.jpg">
+  <img class="thumbfull" data-original="environment/0.jpg">
+  <img class="thumbfull" data-original="environment/1.jpg">
+  <img class="thumbfull" data-original="environment/13.jpg">
+  <img class="thumbfull" data-original="environment/11.gif">
+
+
+</div></div>
+
+<!-- cosmic -->
+<div class="oo" ><p  class="description">→&ensp;Cosmic Garden<br><br> 3D work for the Paris based fashion photographer Valentin Fabre. "Cosmic Garden" is a fashion shoot exploring a place 'halfway between Earth and space'. Alien bodies and fluids were built in CGI, spicing up the journey.<br><br></p>
+<div class="grid">
+  <img class="thumb" style="height:40em;" src="cosmic/6.jpg"><br class="thumb">
+  <img class="thumb" style="height:40em;" src="cosmic/8.jpg"> <br class="thumb">
+  <img class="thumb" style="height:40em;" data-original="cosmic/2.jpg"><br class="thumb">
+  <img class="thumb" style="height:25em;" data-original="cosmic/4.jpg"><br class="thumb">
+  <img class="thumb" style="height:20em;" data-original="cosmic/9.jpg"><br class="thumb">
+  <img class="thumb" style="height:40em;" data-original="cosmic/10.jpg"><br class="thumb">
+  <img class="thumb" style="height:25em;" data-original="cosmic/5.jpg"><br class="thumb">
+  <img class="thumb" style="height:40em;" data-original="cosmic/1.jpg"><br class="thumb">
+  <img class="thumb" style="height:40em;" data-original="cosmic/11.jpg"><br class="thumb">
+  <img class="thumb" style="height:25em;" data-original="cosmic/3.jpg"><br class="thumb">
+  <img class="thumb" style="height:15em;" data-original="cosmic/7.jpg"><br class="thumb">
+
+  <img class="thumbfull"  src="cosmic/6.jpg">
+  <img class="thumbfull"  data-original="cosmic/8.jpg">
+  <img class="thumbfull"  data-original="cosmic/2.jpg">
+  <img class="thumbfull"  data-original="cosmic/4.jpg">
+  <img class="thumbfull"  data-original="cosmic/9.jpg">
+  <img class="thumbfull"  data-original="cosmic/10.jpg">
+  <img class="thumbfull"  data-original="cosmic/5.jpg">
+  <img class="thumbfull"  data-original="cosmic/1.jpg">
+  <img class="thumbfull"  data-original="cosmic/11.jpg">
+  <img class="thumbfull"  data-original="cosmic/3.jpg">
+  <img class="thumbfull"  data-original="cosmic/7.jpg">
+
+
+</div></div>
+
+<!-- Poster -->
+<div class="pp"><p class="description">→&ensp;Poster Research<br><br>Various poster designs either born from commissioned works or self initiated. <br><br></p>
+<div class="grid">
+<img class="thumb" style="height:30em;" src="poster/02.png"><br class="thumb">
+<img class="thumb" style="height:30em;" src="poster/01.png"><br class="thumb">
+<img class="thumb" style="height:30em;" data-original="poster/03.png"><br class="thumb">
+<img class="thumb" style="height:30em;" data-original="poster/11.png"><br class="thumb">
+<img class="thumb" style="height:30em;" data-original="poster/21.png"><br class="thumb">
+<img class="thumb" style="height:30em;" data-original="poster/09.png"><br class="thumb">
+<img class="thumb" style="height:30em;" data-original="poster/20.png"><br class="thumb">
+<img class="thumb" style="height:30em;" data-original="poster/04.png"><br class="thumb">
+<img class="thumb" style="height:30em;" data-original="poster/08.png"><br class="thumb">
+<img class="thumb" style="height:30em;" data-original="poster/19.png"><br class="thumb">
+<img class="thumb" style="height:30em;" data-original="poster/14.png"><br class="thumb">
+<img class="thumb" style="height:30em;" data-original="poster/17.gif"><br class="thumb">
+<img class="thumb" style="height:30em;" data-original="poster/16.gif"><br class="thumb">
+<img class="thumb" style="height:30em;" data-original="poster/28.gif"><br class="thumb">
+
+<img class="thumbfull" src="poster/02.png">
+<img class="thumbfull" src="poster/01.png">
+<img class="thumbfull" data-original="poster/03.png">
+<img class="thumbfull" data-original="poster/11.png">
+<img class="thumbfull" data-original="poster/21.png">
+<img class="thumbfull" data-original="poster/09.png">
+<img class="thumbfull" data-original="poster/20.png">
+<img class="thumbfull" data-original="poster/04.png">
+<img class="thumbfull" data-original="poster/08.png">
+<img class="thumbfull" data-original="poster/19.png">
+<img class="thumbfull" data-original="poster/14.png">
+<img class="thumbfull" data-original="poster/17.gif">
+<img class="thumbfull" data-original="poster/16.gif">
+<img class="thumbfull" data-original="poster/28.gif">
+</div></div>
+
+
+<!-- about -->
+<div  class="about">
+<img class="face" src="pict/01.gif"/><br><br>
+<p class="present" >Romain is a french graphic designer and a visual artist working internationnaly.<br><br> Self designed and self coded.<br>All code, graphic and visual works belong to Romain and its collaborators.<br><br>
+<span class="link" >  <a href="mailto:romainthibaultgaulthier@gmail.com">→&ensp;Contact</a>&ensp;&ensp;&ensp;<br class="thumbfull" ><a href="https://www.instagram.com/researchmore/" target="_blank">→&ensp;Lab </a>&ensp;&ensp;&ensp; <br class="thumbfull" > <a href="https://www.instagram.com/researchmore/" target="_blank">→&ensp;Instagram</a>  </span></p>
+</div>
+
+</div></div>
+
+
+<!-- lazy script -->
+<script src="js/lazyload.js"></script>
+<script>
+(function () {
+function logElementEvent(eventName, element) {console.log(new Date().getTime(), eventName, element.getAttribute('data-original'));}
+function logEvent(eventName, elementsLeft) {console.log(new Date().getTime(), eventName, elementsLeft + "images left");}
+  new LazyLoad({container: document.getElementById('content')});
+}());
+</script>
+</body>
+</html>
