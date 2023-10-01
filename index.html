@@ -156,37 +156,7 @@ $(document).ready(function() {
   //# sourceURL=pen.js
 </script>
 
-<!-- autoplay -->
-<script>
-function fctAutoplay(sIdVideo){
-  var oVideo = document.getElementById(video);
-  oVideo.autoplay = true;
-}//fct
 
-function fctPlay(sIdVideo){
-  var oVideo = document.getElementById(video);
-  var playPromise = oVideo.play();
-
-  if (playPromise !== undefined) {
-    playPromise.then(function() {
-      //
-    }).catch(function(error) {
-      var oDetect = document.getElementById("detect"+video);
-      if(oDetect){
-        oDetect.innerHTML = "(on la détecté en javascript que la vidéo ne c'est pas lancée)";
-      }
-    });
-  }
-}//fct
-
-document.addEventListener('DOMContentLoaded',function(){
-  //fctAutoplay('idvideo');
-  fctAutoplay('idvideoA');
-  fctAutoplay('idvideoA2');
-  fctPlay('idvideoB')
-  fctPlay('idvideoB2')
-});
-</script>
 
 
 <!-- script script script script script script script script script script script script script script script script script script script -->
