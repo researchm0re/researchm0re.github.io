@@ -11,10 +11,13 @@
   <link rel="stylesheet" href="css/style_index.css?v=1.0" type="text/css">
 
 <!--script script script script script script script script script script script script script script script script script script script -->
+<!--[if lt IE 9]-->
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 
 
 
-  
+<!--[endif]-->
+  <script src="js/jquery-1.12.3.min.js" type="text/javascript" ></script>
 <!-- responsiv block -->
   <script type="text/javascript" src="js/responsive.js" type="text/javascript" ></script>
 <!-- loader -->
@@ -158,7 +161,37 @@ $(document).ready(function() {
   //# sourceURL=pen.js
 </script>
 
+<!-- autoplay -->
+<script>
+function fctAutoplay(sIdVideo){
+  var oVideo = document.getElementById(video);
+  oVideo.autoplay = true;
+}//fct
 
+function fctPlay(sIdVideo){
+  var oVideo = document.getElementById(video);
+  var playPromise = oVideo.play();
+
+  if (playPromise !== undefined) {
+    playPromise.then(function() {
+      //
+    }).catch(function(error) {
+      var oDetect = document.getElementById("detect"+video);
+      if(oDetect){
+        oDetect.innerHTML = "(on la détecté en javascript que la vidéo ne c'est pas lancée)";
+      }
+    });
+  }
+}//fct
+
+document.addEventListener('DOMContentLoaded',function(){
+  //fctAutoplay('idvideo');
+  fctAutoplay('idvideoA');
+  fctAutoplay('idvideoA2');
+  fctPlay('idvideoB')
+  fctPlay('idvideoB2')
+});
+</script>
 
 
 <!-- script script script script script script script script script script script script script script script script script script script -->
@@ -455,7 +488,7 @@ $(document).ready(function() {
 </div></div>
 
 <!-- Art Web -->
-<div class="jj" ><p  class="description"><a href="https://romain-thibault.com/research.github.io/" target="_blank">→&ensp;romainthibault.xyz</a><br><br>Online presence and portfolio for the visual art side of my practice.<br><br> The responsive portfolio was self designed and coded to underlign images and showcast a series of installations, digital paintings, video games and experimental films.<br><br></p>
+<div class="jj" ><p  class="description"><a href="https://romain-thibault.com/research.github.io/ target="_blank"">→&ensp;romainthibault.xyz</a><br><br>Online presence and portfolio for the visual art side of my practice.<br><br> The responsive portfolio was self designed and coded to underlign images and showcast a series of installations, digital paintings, video games and experimental films.<br><br></p>
 <div class="grid">
   <img class="thumb" style="width:30vw" src="web/01.jpg"/><br class="thumb">
   <img class="thumb" style="width:30vw" src="web/02.jpg"/><br class="thumb">
