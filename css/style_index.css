@@ -39,7 +39,7 @@ img:not([src]) {visibility:hidden;}
 .menumobile{display: none;padding-top: 1em; margin-bottom:4em;height:auto;}
 #close{display:block;}
 .list{width:max-content;margin-top: 1em;cursor:pointer;}
-.list2{width:max-content;margin-top: 0.5em;cursor:pointer;}
+.list2{width:90%;margin-top: 0.5em;cursor:pointer;}
 .description{padding-left:1em;padding-top: 1em;width:80vw;}
 /* project view */
 .aa,.bb,.cc,.dd,.ee,.ff,.gg,.hh,.ii,.jj,.kk,.ll,.mm,.nn,.oo,.pp{display:none; height:fit-content;}
