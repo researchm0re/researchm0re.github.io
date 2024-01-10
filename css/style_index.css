@@ -67,35 +67,35 @@ img:not([src]) {visibility:hidden;}
 .face{width: 8em;margin-left:1em; }
 /* mobile landcape ----------- */
 @media (orientation: landscape) and (max-device-width : 820px) {
-body {font-size:0.8em;}
+body {font-size:14px;}
 }
 /* iPhone 4 ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-height: 480px) and (device-aspect-ratio: 2/3) {
-  body {font-size:0.9em;}
+  body {font-size:15px;}
 }
 /* iPhone 5 ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (device-aspect-ratio: 40/71) {
 /* Styles */
-body {font-size:1em;}
+body {font-size:18px;}
 
 }
 /* galaxy s5 ----------- */
 @media screen and (device-width: 360px) {
-body {font-size:1em;}
+body {font-size:18px;}
 }
 /* iPhone 6 ----------- */
 @media only screen and (min-device-width: 375px){
 /* Styles */
-body {font-size:1.1em;}
+body {font-size:19px;}
 }
 /* iPhone 6+ ----------- */
 @media only screen and (min-device-width: 414px){
 /* Styles */
-body {font-size:1.1em;}
+body {font-size:19px;}
 }
 /* iPads (portrait) ----------- */
 @media only screen and (min-device-width : 768px)  and (orientation : portrait) {
-body {font-size:1.5em; line-height: 1.4em;}
+body {font-size:27px; line-height: 1.4em;}
 .showm{top:2em;width: 10vw;}
 /* Styles */
 }
@@ -103,7 +103,7 @@ body {font-size:1.5em; line-height: 1.4em;}
 /* iPads (landscape) ------------------------------------------------------------------------------------------------------------------- */
 @media only screen and (min-device-width : 768px)  and (orientation : landscape) {
 /* Styles */
-body {font-family: 'f-grotesk';font-size:1.2em; line-height: 1.3em;margin:0; min-height: 100%; background-color: #f6f6f6;}
+body {font-family: 'f-grotesk';font-size:20px; line-height: 1.3em;margin:0; min-height: 100%; background-color: #f6f6f6;}
 /* hidescroll */
 .imager::-webkit-scrollbar,.nav::-webkit-scrollbar{display: none;}
 .imager,.nav { -ms-overflow-style: none; /* for Internet Explorer, Edge */ scrollbar-width: none; /* for Firefox */overflow-y: scroll;}
@@ -152,13 +152,13 @@ img:not([src]) {visibility:hidden;}
 
 /* Desktops and laptops -------------------------------------------------------------------------------------------------------------------------------------------------- */
 @media only screen  and (min-width : 1224px) {
-  body {font-family: 'f-grotesk';font-size:1.2em; line-height: 1.3em;margin:0; min-height: 100%; background-color: #f6f6f6;}
+  body {font-family: 'f-grotesk';font-size:20px; line-height: 1.3em;margin:0; min-height: 100%; background-color: #f6f6f6;}
 
 /* Styles */
 }
 
 /* Large screens 21.5 ----------- */
-@media only screen  and (min-width : 1920px) {body {font-family: 'f-grotesk';font-size:1.5em; line-height: 1.3em;margin:0; min-height: 100%; background-color: #f6f6f6;}
+@media only screen  and (min-width : 1920px) {body {font-family: 'f-grotesk';font-size:27px; line-height: 1.3em;margin:0; min-height: 100%; background-color: #f6f6f6;}
 
 /* Styles */
 .show{width:2.1vw; display:none;position:absolute;left:16vw;cursor:pointer;}
@@ -168,7 +168,7 @@ img:not([src]) {visibility:hidden;}
 }
 
 /* Large screens 27 ----------- */
-@media only screen  and (min-width : 2200px) {body {font-family: 'f-grotesk';font-size:1.7em; line-height: 1.5em;margin:0; min-height: 100%; background-color: #f6f6f6;}
+@media only screen  and (min-width : 2200px) {body {font-family: 'f-grotesk';font-size:28px; line-height: 1.5em;margin:0; min-height: 100%; background-color: #f6f6f6;}
 
 /* Styles */
 .show{width:2.2vw; display:none;position:absolute;left:17vw;cursor:pointer;}
